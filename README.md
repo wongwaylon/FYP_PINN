@@ -1,5 +1,5 @@
 # FYP_PINN
-University of Bath Final Year Project: Lithium-Ion Battery State Predictions Using Physics-Informed Neural Networks (PINNs)
+University of Bath Final Year Project: Lithium-Ion Battery Charge Predictions Using Physics-Informed Neural Networks (PINNs)
 
 # Abstract
 As the world moves towards a net zero environment, projects to electrify transportation and the energy sector have been implemented to reduce the impacts of climate change, leading to a rise in Lithium-ion (Li-ion) battery demand. To anticipate the soar in battery demand, a deep understanding of battery dynamics is necessary to develop large and reliable Li-ion batteries. One way to predict the state of charge of a Li-ion battery is through the partial differential equation (PDE) of Fick’s law of diffusion in a single particle model. Currently, most of these models are computed through numerical methods, which use complex numerical algorithms and can require high computational powers for complex cases.  
