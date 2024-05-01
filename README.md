@@ -23,3 +23,10 @@ The PINN was trained for 1 hour and achieved a training loss of 1.38E-03 and a v
 | `CVM_t.csv` | Control volume method time steps |
 | `PINN_save_concentrations.py` | Save concentration predictions from different PINN models into Excel files |
 | `PINN_save_images.py` | Plot and save PINN prediction graphs |
+| `PINN_state_4x256tanh_b128N2k_a5k_l100_tmax1000_t0.pt` | Most successful trained PINN utilising a boundary forcing function at $t=0$ |
+| `PINN Models` | Folder for trained PINNs and concentration prediction data |
+| `Model Plots` | Folder including concentration prediction plots using different network/training parameters |
+|`Simple PINN Pilot Study` | Pilot study for PINN coding using the diffusion equation |
+
+# Trained PINN Naming Convention
+`PINN_state_{layers}_{neurons per layer}{activation function}_b{batch size}N{training dataset size}_a{adam epochs}_l{lbfgs epochs}_tmax{max t value}+{boundary forcing / adaptive sampling}`
