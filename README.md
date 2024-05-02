@@ -16,6 +16,7 @@ The PINN was trained for 1 hour and achieved a training loss of 1.38E-03 and a v
 | --- | --- |
 | `PINN_code.py` | PINN model |
 | `PINN_train.py` | PINN training file |
+| `PINN_execute.py` | Trained PINN run file |
 | `SolveDiffusionStress.py` | Compute spherical diffusion using the control volume method |
 | `CVM_c.csv` | Control volume method concentration solution |
 | `CVM_c.csv` | Control volume method concentration solution for $\theta =0$ |
